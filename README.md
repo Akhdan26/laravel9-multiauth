@@ -25,12 +25,16 @@ note :
 10. run on your terminal :
     php artisan serve; npm run dev;
 
-#Admin :
-#email : admin@gmail.com
-#password : 123456
+# Admin :
 
-#User :
-#email : admin@gmail.com
-#password : 123456
+# email : admin@gmail.com
 
-#halaman login : http://localhost:8000/login
+# password : 123456
+
+# User :
+
+# email : admin@gmail.com
+
+# password : 123456
+
+# halaman login : http://localhost:8000/login
