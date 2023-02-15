@@ -1,33 +1,36 @@
 # laravel9-multiauth
+
 note :
 
-composer update
+1. composer update
 
-npm install
+2. npm install
 
-npm run build
+3. npm run build
 
-create file .env and edit the database name that matches your local database name
+4. create file .env and edit the database name that matches your local database name
 
-input configuration google in .env file :
-GOOGLE_CLIENT_ID=339113357872-s1b43bntqlqjmkc9qm2vsfm5hmc6ji0l.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
+5. input configuration google in .env file :
+   GOOGLE_CLIENT_ID=339113357872-s1b43bntqlqjmkc9qm2vsfm5hmc6ji0l.apps.googleusercontent.com
+   GOOGLE_CLIENT_SECRET=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
 
-php artisan key:generate
+6. php artisan key:generate
 
-php artisan migrate
+7. php artisan migrate
 
-php artisan db:seed
+8. php artisan db:seed
 
-run on your terminal : 
-php artisan serve; npm run dev;
+9. create '/thumbnail' folder in public folder
 
-Admin : 
-email : admin@gmail.com 
-password : 123456
+10. run on your terminal :
+    php artisan serve; npm run dev;
 
-User : 
-email : admin@gmail.com 
-password : 123456
+#Admin :
+#email : admin@gmail.com
+#password : 123456
 
-halaman login : http://localhost:8000/login
+#User :
+#email : admin@gmail.com
+#password : 123456
+
+#halaman login : http://localhost:8000/login

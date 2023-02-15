@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   <title>W3.CSS Template</title>
+   <title>Home List Post</title>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,8 +25,8 @@
 <body class="w3-light-grey">
    @yield('content')
    <!-- Footer -->
-   <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-      <p>Powered by <a target="_blank">Magdalisa Anniel Miftasya</a></p>
+   <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top fixed-bottom">
+      <p>Powered by <a target="_blank">Muhammad Hifzhan Silmi</a></p>
    </footer>
 
 </body>
